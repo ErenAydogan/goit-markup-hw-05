@@ -576,5 +576,31 @@ img {
             }
         }
 
+        &__text {
+            font-weight: 500;
+            font-size: 16px; 
+            line-height: 1.5; 
+            text-align: center;
+            letter-spacing: 0.02em;
+            color: #2E2F42;
+            margin-bottom: 16px;   
+        }
+
+        &__form {
+            &-item {
+                margin-bottom: 8px;
+
+                &__name {
+                    font-size: 12px;
+                    line-height: 1.17; 
+                    letter-spacing: 0.04em;
+                    color: #8e8f99;
+                    display: block;
+                    margin-bottom: 4px;
+                    
+                }
+            }
+        }
+
     }
 }

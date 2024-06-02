@@ -395,7 +395,7 @@
             <p class="footer-container__subscribe-text">Subscribe</p>
             <form class="footer-container__subscribe-form">
                 <label for="subscribe-email" class="footer-container__subscribe-form__mail">
-                    <input type="email" name="user-email" placeholder="E-mail" for="subscribe-email" class="footer-container__subscribe-form__mail-input">
+                    <input type="email" name="user-email" placeholder="E-mail" for="user-email" class="footer-container__subscribe-form__mail-input">
                 </label>                
                 <button type="submit" class="footer-container__subscribe-form__btn">
                     Subscribe
@@ -411,9 +411,17 @@
     <div class="modal-container">
         <button type="button" class="modal-container__btn">
             <svg class="modal-container__btn-icon" width="8" height="8">
-                <use href="./images/icons.svg#icon-antenna"></use>
+                <use href="./images/icons.svg#icon-cancel"></use>
             </svg>
         </button>
+        <p class="modal-container__text">
+            Leave your contacts and we will call you back
+        </p>
+        <form class="model-container__form">
+            <div class="model-container__form-item">
+                <label for="user-name" class="model-container__form-item__name">Name</label>
+            </div>
+        </form>
     </div>
 </div>
 </body>
