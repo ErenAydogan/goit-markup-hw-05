@@ -652,8 +652,8 @@ img {
                     }
                 }
 
-                &__checkbox:checked {
-                    & .modal-container__form-item__privacy-span-icon{
+                & input:checked {
+                    & ~ label > svg {
                         background-color: #404bbf;
                         border: none;
                         fill:#F4F4FD;

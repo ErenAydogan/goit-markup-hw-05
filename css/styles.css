@@ -550,7 +550,7 @@ img {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-container__form-item__checkbox:checked .modal-container__form-item__privacy-span-icon {
+.modal-container__form-item input:checked ~ label > svg {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
