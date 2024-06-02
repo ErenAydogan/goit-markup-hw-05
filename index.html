@@ -394,8 +394,8 @@
         <div class="footer-container__subscribe">
             <p class="footer-container__subscribe-text">Subscribe</p>
             <form class="footer-container__subscribe-form">
-                <label for="subscribe-email" class="footer-container__subscribe-form__mail">
-                    <input type="email" name="user-email" placeholder="E-mail" for="user-email" class="footer-container__subscribe-form__mail-input">
+                <label id="subscribe-email" class="footer-container__subscribe-form__mail">
+                    <input type="email" name="user-email" placeholder="E-mail" class="footer-container__subscribe-form__mail-input">
                 </label>                
                 <button type="submit" class="footer-container__subscribe-form__btn">
                     Subscribe
@@ -450,7 +450,7 @@
                 <textarea name="user-comment" id="user-comment" placeholder="Text input" class="modal-container__form-item__container-textarea"></textarea>
             </div>
             <div class="modal-container__form-item fifth-item">
-                <input type="checkbox" id="user-privacy" name="user-privacy" value="true" class="visually-hidden" class="modal-container__form-item__checkbox">
+                <input type="checkbox" id="user-privacy" name="user-privacy" value="true" class="visually-hidden modal-container__form-item__checkbox">
                 <label for="user-privacy" class="modal-container__form-item__privacy">
                     <span class="modal-container__form-item__privacy-2">
                         <svg class="modal-container__form-item__privacy-2-icon" width="10" height="8">
@@ -458,7 +458,7 @@
                         </svg>
                     </span>
                     I accept the terms and conditions of the <a href="#">Privacy Policy</a>
-                  </label>
+                </label>
             </div>
             <button type="submit" class="modal-container__form__btn">Submit</button>
         </form>
