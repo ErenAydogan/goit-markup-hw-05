@@ -653,7 +653,7 @@ img {
                 }
 
                 &__checkbox:checked {
-                    &+label>svg{
+                    &+label svg{
                         background-color: stilinde #404bbf;
                         border: none;
                         fill:#F4F4FD;
@@ -666,7 +666,7 @@ img {
                     letter-spacing: 0.04em;
                     color: #8e8f99;
 
-                    &-2 {
+                    &-span {
                         width: 16px;
                         height: 16px; 
                         border: 1px solid rgba(46, 47, 66, 0.4);
