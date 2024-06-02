@@ -653,7 +653,7 @@ img {
                 }
 
                 &__checkbox:checked {
-                    &~label>svg{
+                    & .modal-container__form-item__privacy-span-icon{
                         background-color: #404bbf;
                         border: none;
                         fill:#F4F4FD;
