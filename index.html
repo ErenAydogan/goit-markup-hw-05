@@ -445,12 +445,19 @@
                     </svg>
                 </div>
             </div>
-            <div class="modal-container__form-item">
+            <div class="modal-container__form-item forth-item">
                 <label for="user-comment" class="modal-container__form-item__name">Comment</label>
                 <div class="modal-container__form-item__container">
-                    <input type="textarea" name="user-comment" id="user-comment" class="modal-container__form-item__container-input">
+                    <textarea name="user-comment" id="user-comment" placeholder="Text input" class="modal-container__form-item__container-textarea"></textarea>
                 </div>
             </div>
+            <div class="modal-container__form-item">
+                <input type="checkbox" id="user-privacy" name="user-privacy" value="true" class="visually-hidden">
+                <label for="user-privacy">
+                    I accept the terms and conditions of the <a href="#">Privacy Policy</a>
+                  </label>
+            </div>
+            <button type="submit" class="btn">Submit</button>
         </form>
     </div>
 </div>
