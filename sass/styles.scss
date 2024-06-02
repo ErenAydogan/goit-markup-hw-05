@@ -653,8 +653,8 @@ img {
                 }
 
                 &__checkbox:checked {
-                    &+label svg{
-                        background-color: stilinde #404bbf;
+                    &~label>svg{
+                        background-color: #404bbf;
                         border: none;
                         fill:#F4F4FD;
                     }
