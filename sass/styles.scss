@@ -653,7 +653,7 @@ img {
                 }
 
                 & input:checked {
-                    & ~ label > svg {
+                    & ~ label > span {
                         background-color: #404bbf;
                         border: none;
                         fill:#F4F4FD;
